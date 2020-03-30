@@ -1,0 +1,100 @@
+body {
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+a {
+	text-decoration: none;
+	display: inline;
+	color: black;
+}
+header {
+	width: 100%;
+	height: 140px;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}
+
+header .header-icons-container {
+	width: 100%;
+	height: 50px;
+	display: grid;
+	background-color: #47cfac;
+	justify-items: flex-end;
+}
+header .header-icons-container .icons {
+	width: 300px;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-right: 50px;
+}
+header nav {
+	display: ;
+}
+header .icons span {
+	color: white;
+}
+nav {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	height: 90px;
+}
+nav .nav-logo-container {
+	margin-left: 50px;
+}
+nav .nav-logo-container img {
+	width: 220px;
+	margin-top: 10px;
+}
+nav .profile-link {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-right: 50px;
+}
+nav .profile-link a {
+	color: black;
+	border-bottom: 1px solid black;
+}
+main {
+	width: 100%;
+	background-color: #1b1b1b;
+	background-image: url("../assets/img/Cover.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+}
+main section {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-rows: 50%;
+	justify-content: center;
+	justify-items: center;
+}
+main section .title-container {
+	display: flex;
+	align-items: center;
+	width: 300px;
+	text-align: center;
+	color: white;
+}
+main section .button.containers {
+	display: flex;
+	align-items: flex-start;
+	width: 100px;
+	height: 50px;
+}
+main section .button-container button {
+	font-weight: bolder;
+	border: 1px solid white;
+	padding: 10px 15px;
+	background-color: #47cfac;
+}
